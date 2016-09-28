@@ -22,5 +22,7 @@ class TippApp extends Component{
         )
     }
 }
-
+TippApp.PropTypes = {
+    selectRow: React.PropTypes.array.isRequired,
+}
 export default TippApp;

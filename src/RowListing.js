@@ -22,9 +22,16 @@ class RowListing extends Component {
             <div className="col-sm-9 text-center">
                 <h2>Dine Tall</h2>
                 {numbersRow}
+               <h6>Nei, de endres ikke enda...</h6>
             </div>
         )
     }
 }
+
+RowListing.PropTypes = {
+    className: React.PropTypes.string.isRequired,
+    number: React.PropTypes.number.isRequired,
+    key: React.PropTypes.number.isRequired
+};
 
 export default RowListing;

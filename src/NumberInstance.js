@@ -12,11 +12,4 @@ class NumberInstance extends Component {
     }
 }
 
-NumberInstance.PropTypes = {
-    className: React.PropTypes.string.isRequired,
-    key: React.PropTypes.number.isRequired,
-    onClick: React.PropTypes.func.isRequired,
-    number: React.PropTypes.number.isRequired
-};
-
 export default NumberInstance;

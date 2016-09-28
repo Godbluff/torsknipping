@@ -56,7 +56,11 @@ class NumbersList extends Component {
     }
 }
 NumbersList.PropTypes = {
+    number: React.PropTypes.number.isRequired,
+    key: React.PropTypes.number.isRequired,
+    className: React.PropTypes.string.isRequired,
     clickedNumbers: React.PropTypes.array.isRequired,
+    showNumber: React.PropTypes.func.isRequired,
 };
 
 export default NumbersList;

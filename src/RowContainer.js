@@ -12,4 +12,8 @@ class RowContainer extends Component{
     }
 }
 
+RowContainer.PropTypes = {
+    selectRow: React.PropTypes.array.isRequired
+};
+
 export default RowContainer;
