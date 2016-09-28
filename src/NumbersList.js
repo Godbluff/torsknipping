@@ -51,6 +51,9 @@ class NumbersList extends Component {
         return(
             <div>
                 {numbers}
+                <div>
+                    <button onClick={() => {this.state.clickedNumbers = []; console.log('You have no numbers selected')} }>Reset</button>
+                </div>
             </div>
         );
     }
